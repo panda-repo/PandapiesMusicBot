@@ -1,6 +1,6 @@
 from typing import Dict, List, Union
 
-from ShizukaXMusic.core.mongo import mongodb
+from PandapiesMusicBot.core.mongo import mongodb
 
 chatsdb = db.chats
 
