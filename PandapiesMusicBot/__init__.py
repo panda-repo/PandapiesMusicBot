@@ -1,4 +1,4 @@
-from PandapiesMusicBot.core.bot import PandapiesBot
+join ko ko inifrom PandapiesMusicBot.core.bot import PandapiesBot
 from PandapiesMusicBot.core.dir import dirr
 from PandapiesMusicBot.core.git import git
 from PandapiesMusicBot.core.userbot import Userbot
@@ -32,7 +32,7 @@ from .platforms import *
 YouTube = YouTubeAPI()
 Carbon = CarbonAPI()
 Spotify = SpotifyAPI()
-Apple = AppleAPI()i
+Apple = AppleAPI()
 Resso = RessoAPI()
 SoundCloud = SoundAPI()
 Telegram = TeleAPI()
