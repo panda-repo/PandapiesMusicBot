@@ -76,7 +76,7 @@ node(){
 repo(){
 	# Get git repo if the installer is runned standalone
 	[[ ! "PandapiesMusicBot" == $(basename -s .git `git config --get remote.origin.url`) ]] &&
-	git clone https://github.com/its_star_boi/PandapiesMusicBot &&  cd PandapiesMusicBot
+	git clone https://github.com/panda-repo/PandapiesMusicBot &&  cd PandapiesMusicBot
 }
 
 
