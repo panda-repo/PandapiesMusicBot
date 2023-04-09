@@ -25,7 +25,7 @@ for filename in os.listdir(r"./strings"):
 
 for filename in os.listdir(r"./strings/langs/"):
     if "id" not in languages:
-        languages["en"] = yaml.safe_load(
+        languages["if"] = yaml.safe_load(
             open(r"./strings/langs/id.yml", encoding="utf8")
         )
     if filename.endswith(".yml"):
