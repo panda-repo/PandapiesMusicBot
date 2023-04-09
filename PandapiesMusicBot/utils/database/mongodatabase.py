@@ -1,6 +1,6 @@
 from typing import Dict, List, Union
 
-from PandaliesMusicBot.core.mongo import mongodb
+from PandapiesMusicBot.core.mongo import mongodb
 
 queriesdb = mongodb.queries
 userdb = mongodb.userstats
